@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ulubiony Nauczyciel</title>
+    <style>
+         body {
+			background-color:#A9D6E5;
+            margin: 5;
+            padding: 0;
+            font-family: Apple Chancery, cursive;
+        }
+
+        header {
+            background-color:#61A5C2; /* Kolor błękitny */
+			letter-spacing: 5px; 
+            color: #fff;
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px;
+            border-radius: 18px; /* Zaokrąglenie krawędzi */
+        }
+
+        nav {
+            background-color: #61A5C2; /* Kolor błękitny */
+			width: 40%;
+            color: #fff;
+            text-align: center;
+			margin: 0 auto;
+            padding: 10px;
+            border-bottom-left-radius: 15px; /* Zaokrąglenie krawędzi */
+			border-bottom-right-radius: 15px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #468FAF; /* Kolor błękitny - ciemniejszy odcień */
+			border-radius: 18px;
+        }
+
+        footer {
+            background-color: #2C7DA0; /* Kolor czerwony */
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Style CSS dla treści podstron */
+        .content {
+            padding: 20px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>ULUBIONY NAUCZYCIEL </h1>
+			<img src="p1.jpg" "height=200px width=200px">
+        </div>
+    </header>
+    
+    <nav>
+        <a href="UlubionyNauczyciel.html">Życzenia</a>
+        <a href="Zdjecia.html">Zdjęcia</a>
+        <a href="Dowody.html">Kamil</a>
+    </nav>
+    <span style="color:#2A6F97">
+    <div class="content">
+        <section id="zdjecia">
+           <center> <h1>Zdjęcia</h1>
+            <div class="photo">
+                <img src="2.jpg" "height=1280px width=720px">
+                <p>Nasze pierwsze zdjęcie klasowe</p>
+            </div>
+            <div class="photo">
+                <img src="1.jpg" "height=1280px width=720px">
+                <p>Zdjęcie klasa 2J</p>
+            </div>
+            <div class="photo">
+                <img src="9.jpg" "height=1280px width=720px">
+                <p>Pierwsza wycieczka - kręgielnia</p>
+            </div>
+            <div class="photo">
+                <img src="11.jpg" "height=1280px width=720px">
+            </div>
+			<div class="photo">
+                <img src="10.jpg" "height=1280px width=720px">
+                <p>Pierwsza wycieczka w góry - Czantoria</p>
+            </div>
+            <div class="photo">
+                <img src="7.jpg" "height=1280px width=720px">
+                <p>Kino - Black Adam</p>
+            </div>
+            <div class="photo">
+                <img src="5.jpg" "height=1280px width=720px">
+            </div>
+            <div class="photo">
+                <img src="6.jpg" "height=1280px width=720px">
+                <p>Pierwsza kilkudniowa wycieczka - Brenna</p>
+            </div>
+			<div class="photo">
+                <img src="4.jpg" "height=1280px width=720px">
+                <p>Kino - Avatar</p>
+            </div>
+            <div class="photo">
+                <img src="12.jpg" "height=1280px width=720px">
+                <p>Zdjęcie klasowe 4J</p>
+            </div>
+            <div class="photo">
+                <img src="3.jpg" "height=1280px width=720px">
+				<div class="photo">
+                <img src="13.jpg" "height=1280px width=720px">
+                <p>Wspaniała wycieczka do Zwardonia</p>
+				</span>
+            </div>
+          
+          
+        </section>
+    </div>
+
+    <footer>
+        Najlepsza klasa informatyczna, 4J
+    </footer>
+</body>
+</html>
